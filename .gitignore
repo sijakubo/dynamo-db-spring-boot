@@ -1,0 +1,19 @@
+# IDEs and editors
+/.idea
+*.iws
+*.iml
+*.ipr
+
+# dependencies
+/.gradle
+/node_modules
+
+# compiled output
+/build
+/out
+
+# coverage report
+/coverage
+
+# misc
+npm-debug.log
