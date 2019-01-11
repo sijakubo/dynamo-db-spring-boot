@@ -32,6 +32,10 @@ public class EmployeeAccessor {
         dbMapper.save(employee);
     }
 
+    public Employee findByMail(String email) {
+        return dbMapper.load(Employee.class, email);
+    }
+
     public List<String> findByRole(Role role) {
         List<Map<String, AttributeValue>> result =
             db.scan(
